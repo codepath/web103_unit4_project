@@ -2,9 +2,9 @@
 
 #root {
     --font-family: Rubik, Verdana, sans-serif;
-    --primary: rgb(115, 2, 12);
-    --primary-hover: black;
-    --color: white;
+    --primary: rgb(223, 212, 212);
+    --primary-hover: rgb(211, 215, 216);
+    --color: black;
     --h1-color: var(--color);
     --h2-color: var(--color);
     --h3-color: var(--color);
@@ -39,6 +39,7 @@
     border: 2px solid transparent;
     margin: 10px;
     width: max-content;
+    color: black;
 }
 
 #root [role=button]:hover, #root button:hover, #root input[type=submit]:hover {
